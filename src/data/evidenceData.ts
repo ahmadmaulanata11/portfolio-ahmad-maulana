@@ -76,33 +76,33 @@ export const EVIDENCE_ITEMS: EvidenceItem[] = [
   },
   {
     id: 'EV-06',
-    filename: '06_INTERNSHIP_TollRoad_SiteInspection_Situbondo.jpg',
+    filename: '06_INTERNSHIP_Toll_Road_Drainage.jpg',
     classification: 'Construction Site Photograph',
     mappedSections: ['Work Experience', 'Construction & QA/QC', 'Projects'],
     confidence: 100,
     description: 'Timemark photograph (11 Jan 2025, 08:54 WIB) at Banyuglugur, Situbondo. Inspection of concrete culvert rebar on Probolinggo-Banyuwangi Toll Road Package 3B.',
     verifiedDetails: ['Coordinates: Banyuglugur, Situbondo', 'Project: Jalan Tol Probolinggo - Banyuwangi Paket 3B', 'Activity: Formwork & rebar inspection'],
-    thumbnailUrl: '06_INTERNSHIP_TollRoad_SiteInspection_Situbondo.jpg',
+    thumbnailUrl: '06_INTERNSHIP_Toll_Road_Drainage.jpg',
   },
   {
     id: 'EV-07',
-    filename: '07_INTERNSHIP_TollRoad_Construction_Probolinggo.jpg',
+    filename: '07_INTERNSHIP_Toll_Road_QAQC.jpg',
     classification: 'Construction Site Photograph',
     mappedSections: ['Work Experience', 'Construction & QA/QC'],
     confidence: 100,
     description: 'Ahmad Maulana Taufiqul Azmi in white safety helmet and vest discussing retaining wall reinforcement with senior site engineers at toll road construction site.',
     verifiedDetails: ['Supervision: PT. Parama Karya Mandiri KSO', 'Structure: Box culvert & retaining wall', 'Role: Civil Engineering Intern'],
-    thumbnailUrl: '07_INTERNSHIP_TollRoad_Construction_Probolinggo.jpg',
+    thumbnailUrl: '07_INTERNSHIP_Toll_Road_QAQC.jpg',
   },
   {
     id: 'EV-08',
-    filename: '08_INTERNSHIP_DailyReport_Excel_JasaMarga.jpg',
+    filename: '08_INTERNSHIP_Toll_Road_Daily Reports.jpg',
     classification: 'Excel Screenshot',
     mappedSections: ['Work Experience', 'Technical Skills', 'Construction Management'],
     confidence: 100,
     description: 'Excel daily report ("LAPORAN HARIAN") for PT Parama Karya Mandiri KSO / Jasa Marga Paket 3B detailing formwork, rebar, earthwork, and equipment allocation.',
     verifiedDetails: ['Project: Pembangunan Jalan Tol Probolinggo-Banyuwangi Paket 3B', 'STA: 29+600 - 45+800', 'Data: Daily activities, equipment counts, manpower'],
-    thumbnailUrl: '08_INTERNSHIP_DailyReport_Excel_JasaMarga.jpg',
+    thumbnailUrl: '08_INTERNSHIP_Toll_Road_Daily Reports.jpg',
   },
   {
     id: 'EV-09',
@@ -206,13 +206,13 @@ export const EVIDENCE_ITEMS: EvidenceItem[] = [
   },
   {
     id: 'EV-19',
-    filename: '19_CERTIFICATE_Internship_ProbolinggoBanyuwangi_2025.jpg',
+    filename: '19_CERTIFICATE_Internship.jpg',
     classification: 'Internship Certificate & Evaluation',
     mappedSections: ['Certifications', 'Work Experience', 'Construction Supervision'],
     confidence: 100,
     description: 'Official Internship Certificate & Performance Evaluation (Grade A, Score 95/100) from PT. Parama Karya Mandiri KSO for Probolinggo-Banyuwangi Toll Road Paket 3B.',
     verifiedDetails: ['Issuer: PT. Parama Karya Mandiri KSO', 'Resident Engineer: Ir. Roediono', 'Score: 95/100 (Grade A)', 'Period: 06 Jan - 20 Feb 2025'],
-    thumbnailUrl: '19_CERTIFICATE_Internship_ProbolinggoBanyuwangi_2025.jpg',
+    thumbnailUrl: '19_CERTIFICATE_Internship.jpg',
   },
   {
     id: 'EV-20',
@@ -317,22 +317,22 @@ export const WORK_EXPERIENCES: ExperienceItem[] = [
     evidenceFiles: [
       {
         title: 'Toll Road Culvert Formwork & Rebar Site Inspection',
-        url: '06_INTERNSHIP_TollRoad_SiteInspection_Situbondo.jpg',
+        url: '06_INTERNSHIP_Toll_Road_Drainage.jpg',
         caption: 'Field inspection at Banyuglugur, Situbondo (11 Jan 2025) monitoring rebar placement and culvert construction on Probolinggo-Banyuwangi Toll Road Package 3B.'
       },
       {
         title: 'Concrete Retaining Wall Reinforcement Discussion',
-        url: '07_INTERNSHIP_TollRoad_Construction_Probolinggo.jpg',
+        url: '07_INTERNSHIP_Toll_Road_QAQC.jpg',
         caption: 'Discussion with senior site engineers regarding concrete wall reinforcement and safety standards.'
       },
       {
         title: 'Jasa Marga Daily Construction Report in Excel',
-        url: '08_INTERNSHIP_DailyReport_Excel_JasaMarga.jpg',
+        url: '08_INTERNSHIP_Toll_Road_Daily Reports.jpg',
         caption: 'Excel daily report log for PT Parama Karya Mandiri KSO tracking heavy equipment, workforce, and material placement.'
       },
       {
         title: 'Official Internship Certificate & Grade Transcript (95/100)',
-        url: '19_CERTIFICATE_Internship_ProbolinggoBanyuwangi_2025.jpg',
+        url: '19_CERTIFICATE_Internship.jpg',
         caption: 'Certificate No. 013/II/2025/RE/PKM signed by Resident Engineer Ir. Roediono.'
       }
     ]
@@ -574,21 +574,21 @@ export const PROJECTS: ProjectItem[] = [
     gallery: [
       {
         title: 'Culvert & Retaining Wall Inspection in Situbondo',
-        url: '06_INTERNSHIP_TollRoad_SiteInspection_Situbondo.jpg',
+        url: '06_INTERNSHIP_Toll_Road_Drainage.jpg',
         caption: 'Timemark verified site inspection at Banyuglugur, Situbondo.'
       },
       {
         title: 'On-Site Discussion with Senior Engineers',
-        url: '07_INTERNSHIP_TollRoad_Construction_Probolinggo.jpg',
+        url: '07_INTERNSHIP_Toll_Road_QAQC.jpg',
         caption: 'Reviewing wall reinforcement and safety procedures on site.'
       },
       {
         title: 'Jasa Marga Daily Report Excel Sheet',
-        url: '08_INTERNSHIP_DailyReport_Excel_JasaMarga.jpg',
+        url: '08_INTERNSHIP_Toll_Road_Daily Reports.jpg',
         caption: 'Daily report tracking heavy equipment, labor, and material placement.'
       }
     ],
-    certificateUrl: '19_CERTIFICATE_Internship_ProbolinggoBanyuwangi_2025.jpg'
+    certificateUrl: '19_CERTIFICATE_Internship.jpg'
   }
 ];
 
@@ -696,7 +696,7 @@ export const CERTIFICATES: CertificateItem[] = [
     issueDate: '21 February 2025',
     certNumber: '013/II/2025/RE/PKM',
     keySkills: ['Construction Supervision', 'QA/QC', 'Box Culvert Inspection', 'Excel Administration', 'Grade A (95/100)'],
-    fileUrl: '19_CERTIFICATE_Internship_ProbolinggoBanyuwangi_2025.jpg',
+    fileUrl: '19_CERTIFICATE_Internship.jpg',
     previewType: 'image',
     details: '45 working days internship supervising Probolinggo–Banyuwangi Toll Road Development Project Package 3B under Resident Engineer Ir. Roediono.'
   },
