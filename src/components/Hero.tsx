@@ -155,7 +155,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCvModal, onOpenEvidenceModal }
                     alt="Ahmad Maulana Taufiqul Azmi"
                     className="w-full h-auto object-contain rounded-xl transition-transform duration-500 group-hover:scale-[1.02]"
                     onError={(e) => {
-                      (e.currentTarget as HTMLImageElement).src = "/01_HERO_Portrait_Ahmad_Maulana.jpeg";
+                      (e.currentTarget as HTMLImageElement).src = "01_HERO_Portrait_Ahmad.jpg";
                     }}
                   />
                   
