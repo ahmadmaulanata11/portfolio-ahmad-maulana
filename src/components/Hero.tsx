@@ -151,7 +151,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCvModal, onOpenEvidenceModal }
                 {/* Authentic Portrait Image */}
                 <div id="hero-portrait-container" className="relative rounded-xl overflow-hidden border border-slate-800 bg-slate-900">
                   <img
-                    src="/regenerated_image_1786169383650.jpg"
+                    src="01_HERO_Portrait_Ahmad.jpg"
                     alt="Ahmad Maulana Taufiqul Azmi"
                     className="w-full h-auto object-contain rounded-xl transition-transform duration-500 group-hover:scale-[1.02]"
                     onError={(e) => {
